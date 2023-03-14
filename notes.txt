@@ -1,0 +1,77 @@
+NOTES FOR THE LECTION
+
+pwd - print working directory => get the full path
+
+ls - list all files and directories /without hidden ones/ 
+if we want to get the hidden files too we can use => ls -a
+if we want to get more details like size etc. use ls -l
+-la to combo that
+
+clear => clear the mess that you made
+
+cd => change directorvy // example => cd ~/Documents/Projects/etc...
+combine cd with .. to go back into the parent directory
+cd ~ will get us back to the home directory
+
+mkdir => creates a directory/folder // example => mkdir nqkvaPapka
+mkdir .nqkvaPapka will create hidden folder
+
+man nqkoq-komanda will give us a manual page that explains the command
+and how to use it
+
+cat somefile => printing the text content of a file directly in the terminal
+normally we use that if we are not planing to edit
+just to read a specific file's content
+
+touch somefilename => that command creates a file // example => touch main.js 
+touch .main.js => hidden file
+
+nano => one of the easiest cli text editor to use // you can edit code/text files
+directly in the terminal with nano // 
+example => nano main.js
+
+cp => copies a file to a given location needs the file name and the location as 
+parameters
+
+mv => works kinda like cut/paste in windows, moves the file to a specific location
+we can use it to also simply rename the file
+
+rm => removes a file, there is not recycle bin in the terminal so be careful when 
+deleting
+
+rm -r => removes whatever you give it as a parameter, normally used for folders
+since it deletes recursively
+
+whereis programName => gives us the path to the program that we are searching for
+basically this is a question like "Where is firefox installed on that pc?"
+retrieves man pages and libraries also
+empty if no result is found
+
+echo => just prints a string // example => echo "sudjuk" => sudjuk 
+
+redirection - we can use redirection to basically send some information to a file
+example => 
+
+echo "sudjuk" > main.js // prepends the line
+echo "sudjuk" >> main.js // appends the line
+ 
+that is going to input sudjuk inside of the js file
+we can write code directly from our terminal
+use it whenever it makes sense
+
+grep => searches for a line/text inside a file //
+example:
+grep "sudjuk" main.js => returns the line that includes the string
+grep -v "sudjuk" main.js => returns all the lines that DONT include the string
+
+wget => downloads the content of a file on the web //
+example: wget https://www.zamunda.net => get that html/pdf file 
+
+
+
+ 
+
+
+
+
+
